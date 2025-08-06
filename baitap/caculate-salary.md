@@ -18,3 +18,6 @@
 
 ## Lương thực lãnh:
 - Lương thực lãnh(NET) = lương GROSS - Thuế
+
+## Yêu cầu thêm
+- Viết dạng Funtion, hướng đối tượng
