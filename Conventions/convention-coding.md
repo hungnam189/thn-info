@@ -57,7 +57,7 @@
 - Không dùng các tên giống nhau(chỉ phân biệt kiểu chữ in hoa hay thường), Ta khó nhận ra các định danh nhất là khi trong cùng ngữ cảnh và chỉ phân biệt các định danh bằng kiểu chữ in hoa/thường.
 - Không tạo 2 namespace cùng tên và chỉ khác nhau ở kiểu chữ viết(chữ hoa/Chữ thường). Ví dụ:
 
-```
+```csharp
 Namespace SunAsterisk
 
 Namespace sunAsterisk
@@ -66,7 +66,7 @@ Namespace sunAsterisk
 - Không nên xây dựng 1 phương thức với các tham số có cùng tên và chỉ khác nhau kiểu chữ. Ví dụ: “**void MyFunction(string a, string A)”**
 - Không xây dựng 1 kiểu các tên Prototype giống nhau và chỉ phân biệt kiểu chữ. Ví dụ:
 
-```
+```csharp
 int Color {get, set}
 
 int COLOR {get, set}
@@ -75,7 +75,7 @@ int COLOR {get, set}
 
 - Không đặt tên các phương thức có cùng tên và chỉ khác nhau ở kiểu chữ
 
-```
+```csharp
 void total()
 
 void Total()
